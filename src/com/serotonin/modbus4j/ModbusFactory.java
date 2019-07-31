@@ -174,4 +174,14 @@ public class ModbusFactory {
 
         return new ReadHoldingRegistersRequest(slaveId, offset, length);
     }
+    
+     /**
+     * <p>createRtuOverTcpMaster.</p>
+     *
+     * @param InetSocketAddress inetSocketAddress
+     * @return a {@link @link com.serotonin.modbus4j.RtuOverTcpMaster} object.
+     */
+    public RtuOverTcpMaster createRtuOverTcpMaster(InetSocketAddress inetSocketAddress) {
+        return new RtuOverTcpMaster(inetSocketAddress);
+    }
 }
