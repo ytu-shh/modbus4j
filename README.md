@@ -1,3 +1,7 @@
+增加modbus-Rtu over Tcp连接方式
+具体可查看 com.serotonin.modbus4j.ModbusFactory
+            com.serotonin.modbus4j.ip.tcp.RtuOverTcpMaster
+
 modbus4j
 ========
 
